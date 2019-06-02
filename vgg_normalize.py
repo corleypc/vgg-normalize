@@ -7,7 +7,7 @@ from keras.utils.data_utils import GeneratorEnqueuer
 from PIL import ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
-data_folder = "h:/_ds/coco"  # REPLACE with a valid location
+data_folder = "path_to_dataset"  # REPLACE with a valid location
 output_filename = "vgg16_norm_weights.h5"
 batch_size = 64  # whatever your system can handle
 img_size = (256, 256)  # best to set it to the size used in training your model
